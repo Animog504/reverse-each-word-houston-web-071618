@@ -1,7 +1,7 @@
 def reverse_each_word(string)
   newString = ""
   arrayString = string.split(" ")
-  arrayString.each do |words|
+  arrayString.collect do |words|
        words.reverse!
        if words.include?("!") || words.include?("?") || words.include?(".")
        newString += "#{words}"
