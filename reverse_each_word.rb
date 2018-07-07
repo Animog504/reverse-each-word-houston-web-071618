@@ -12,4 +12,4 @@ def reverse_each_word(string)
   return newString
 end
 
-reverse_each_word("Hello there, and how are you?")
+#reverse_each_word("Hello there, and how are you?")
